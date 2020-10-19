@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Gilroy-Regular.eot");
+  src: url("../assets/fonts/Gilroy-Regular.ttf") format("truetype"),
+       url("../assets/fonts/Gilroy-Regular.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: normal;
+  text-align: left;
+  box-sizing: border-box;
+}
