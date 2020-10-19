@@ -1,7 +1,7 @@
 .header__wrapper {
   display: flex;
   justify-content: space-between;
-  width: 1206px;
+  width: 1366px;
   margin: 0 auto;
 }
 
@@ -25,25 +25,25 @@
   width: 24px;
   height: 2px;
   border: none;
-  background-color: #356EAD;
+  background-color: #356ead;
 
-  &:before {
+  &::before {
     content: "";
     position: absolute;
     top: -7px;
     left: 0;
     width: 24px;
     height: 2px;
-    background-color: #356EAD;
+    background-color: #356ead;
   }
 
-  &:after {
+  &::after {
     content: "";
     position: absolute;
     bottom: -7px;
     left: 0;
     width: 24px;
     height: 2px;
-    background-color: #356EAD;
+    background-color: #356ead;
   }
 }
