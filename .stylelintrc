@@ -21,6 +21,7 @@
       "float",
       "flex-direction",
       "justify-content",
+      "flex-basis",
       "align-items",
       "align-self",
       "flex",
