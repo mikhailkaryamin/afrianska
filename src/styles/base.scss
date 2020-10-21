@@ -4,7 +4,7 @@
   font-display: swap;
   src: url("../assets/fonts/Gilroy-Regular.eot");
   src: url("../assets/fonts/Gilroy-Regular.ttf") format("truetype"),
-       url("../assets/fonts/Gilroy-Regular.woff") format("woff");
+    url("../assets/fonts/Gilroy-Regular.woff") format("woff");
 }
 
 *,
@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: normal;
+  letter-spacing: 0.05em;
   text-align: left;
   box-sizing: border-box;
 }
