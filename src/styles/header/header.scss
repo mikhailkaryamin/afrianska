@@ -21,10 +21,19 @@
 }
 
 .header__burger {
+  width: 24px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__burger-line {
   position: relative;
+  display: block;
   width: 24px;
   height: 2px;
-  border: none;
   background-color: #356ead;
 
   &::before {
