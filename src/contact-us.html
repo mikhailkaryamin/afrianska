@@ -34,95 +34,99 @@
   <main>
     <section class="contact">
       <div class="contact__wrapper">
-        <div class="contact__title">
-          Contact Us
+        <div class="contact__container contact__container--top">
+          <h1 class="contact__title">
+            Contact Us
+          </h1>
+          <div class="contact__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
         </div>
-        <div class="contact__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <div class="contact__container contact__container--middle">
+          <ul class="contact__list">
+            <li class="contact__item">
+              <b class="contact__item-title">
+                ADDRESS
+              </b>
+              <span class="contact__item-description">
+                Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.
+              </span>
+            </li>
+            <li class="contact__item">
+              <b class="contact__item-title">
+                PHONE
+              </b>
+              <ul class="contact__list contact__list--numbers">
+                <li class="contact__item-description">
+                  +62-812-7313-4321
+                </li>
+                <li class="contact__item-description">
+                  +62-817-000-1234
+                </li>
+              </ul>
+            </li>
+            <li class="contact__item">
+              <b class="contact__item-title">
+                ONLINE SERVICE
+              </b>
+              <ul class="contact__list contact__list--online">
+                <li class="contact__item-description">
+                  www.afrianska.com
+                </li>
+                <li class="contact__item-description">
+                  hello.afrian@gmail.com
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form method="POST" class="contact__message message">
+            <ul class="message__list">
+              <li class="message__item">
+                <label for="full-name" class="message__label">
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  class="message__input input"
+                  placeholder="Your Name"
+                  required
+                >
+              </li>
+              <li class="message__item">
+                <label for="email" class="message__label">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="message__input"
+                  placeholder="Your email"
+                  required
+                >
+              </li>
+              <li class="message__item">
+                <label for="message-text" class="message__label">
+                  Message
+                </label>
+                <textarea
+                  name="message-text"
+                  id="message-text"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </li>
+            </ul>
+            <button class="button" type="submit">
+              SUBMIT
+            </button>
+          </form>
         </div>
+        <div class="map"></div>
       </div>
-      <ul class="contact__list">
-        <li class="contact__item">
-          <b class="contact__item-title">
-            ADDRESS
-          </b>
-          <span class="contact__item-description">
-            Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.
-          </span>
-        </li>
-        <li class="contact__item">
-          <b class="contact__item-title">
-            PHONE
-          </b>
-          <ul class="contact__item-description">
-            <li class="contact__number">
-              +62-812-7313-4321
-            </li>
-            <li class="contact__number">
-              +62-817-000-1234
-            </li>
-          </ul>
-        </li>
-        <li class="contact__item">
-          <b class="contact__item-title">
-            ONLINE SERVICE
-          </b>
-          <ul class="contact__online">
-            <li class="contact__site">
-              www.afrianska.com
-            </li>
-            <li class="contact__email">
-              hello.afrian@gmail.com
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <form method="POST" class="message">
-        <ul class="message__list">
-          <li class="message__item">
-            <label for="full-name" class="message__label">
-              Full Name
-            </label>
-            <input
-              type="text"
-              name="full-name"
-              id="full-name"
-              class="message__input input"
-              placeholder="Your Name"
-              required
-            >
-          </li>
-          <li class="message__item">
-            <label for="email" class="message__label">
-              Email
-            </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="message__input"
-              placeholder="Your email"
-              required
-            >
-          </li>
-          <li class="message__item">
-            <label for="message-text" class="message__label">
-              Message
-            </label>
-            <textarea
-              name="message-text"
-              id="message-text"
-              placeholder="Your Message"
-              required
-            ></textarea>
-          </li>
-        </ul>
-        <button class="button" type="submit">
-          SUBMIT
-        </button>
-      </form>
-      <div class="map"></div>
     </section>
   </main>
   <footer class="footer">
