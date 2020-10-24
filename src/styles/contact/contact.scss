@@ -1,0 +1,49 @@
+.contact {
+  background-image: url("../../assets/images/contact-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0;
+}
+
+.contact__wrapper {
+  @include wrapper-desktop;
+}
+
+.contact__container {
+  padding: 5px;
+
+  &--top {
+    padding-top: 45px;
+    padding-right: 100px;
+    padding-bottom: 45px;
+    padding-left: 100px;
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+}
+
+.contact__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 44px;
+  line-height: 74px;
+}
+
+.contact__description {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+.contact__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+}
