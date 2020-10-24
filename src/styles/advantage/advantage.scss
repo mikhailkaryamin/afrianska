@@ -3,16 +3,14 @@
 }
 
 .advantage__wrapper {
-  width: 1366px;
-  margin: 0 auto;
-  padding: 190px 15px;
+  @include wrapper-desktop;
+  padding-top: 180px;
 }
 
 .advantage__title {
   display: inline-block;
   width: 365px;
-  margin-left: 213px;
-  color: #316099;
+  color: $bg-color-dark;
   font-size: 36px;
   line-height: 46px;
 }
@@ -25,7 +23,6 @@
 }
 
 .advantage__list-item {
-  margin-right: 213px;
   margin-bottom: 25px;
   margin-left: auto;
 
@@ -34,7 +31,7 @@
   }
 
   &:nth-child(even) {
-    margin-left: 293px;
+    margin-left: 80px;
   }
 
   &:not(:first-child) {

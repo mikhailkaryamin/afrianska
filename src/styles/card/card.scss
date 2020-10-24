@@ -56,7 +56,7 @@
 .card__btn-learn-more {
   position: relative;
   padding-right: 44px;
-  color: #5a98d0;
+  color: $bg-color-light;
   font-size: 14px;
   line-height: 30px;
   text-decoration: none;
@@ -72,6 +72,6 @@
   }
 
   &:hover {
-    color: #316099;
+    color: $bg-color-dark;
   }
 }

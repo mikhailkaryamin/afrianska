@@ -3,18 +3,18 @@
   margin: 0 auto;
   color: #ffffff;
   border-radius: 200px 0 0 0;
-  background-color: #5a98d0;
+  background-color: $bg-color-light;
 }
 
 .clients__wrapper {
+  @include wrapper-desktop;
   padding-top: 85px;
-  padding-right: 200px;
   padding-bottom: 115px;
-  padding-left: 200px;
 }
 
 .clients__container-top {
   display: flex;
+  margin-bottom: 100px;
   padding: 10px 15px;
 }
 

@@ -2,7 +2,7 @@
   width: 1366px;
   margin: 0 auto;
   color: #ffffff;
-  background-color: #5a98d0;
+  background-color: $bg-color-light;
 
   &--contact-us {
     background: transparent;
@@ -12,16 +12,15 @@
 .footer__bg {
   width: 1270px;
   border-radius: 0 200px 0 0;
-  background-color: #316099;
+  background-color: $bg-color-dark;
 }
 
 .footer__wrapper {
+  @include wrapper-desktop;
   display: flex;
   flex-wrap: wrap;
   padding-top: 80px;
-  padding-right: 200px;
   padding-bottom: 50px;
-  padding-left: 200px;
 }
 
 .footer__container {
@@ -107,7 +106,7 @@
   text-decoration: none;
 
   &:hover {
-    color: #5a98d0;
+    color: $bg-color-light;
   }
 }
 

@@ -5,12 +5,12 @@
   text-align: center;
   border: none;
   border-radius: 10px;
-  background-color: #5a98d0;
+  background-color: $bg-color-light;
   transition: 300ms;
   cursor: pointer;
 
   &:hover {
     transform: scale(0.95);
-    color: #316099;
+    color: $bg-color-dark;
   }
 }

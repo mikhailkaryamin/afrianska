@@ -14,8 +14,7 @@
 }
 
 .about-product__wrapper {
-  width: 940px;
-  margin: 0 auto;
+  @include wrapper-desktop;
 }
 
 .about-product__container-left {
