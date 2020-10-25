@@ -1,0 +1,40 @@
+.message {
+  padding: 55px;
+  color: #1f3f68;
+  border-radius: 10px;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+}
+
+.message__title {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.message__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.message__item {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  &:last-child {
+    margin-bottom: 70px;
+  }
+}
+
+.message__label {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.message__button {
+  width: 100%;
+  padding: 25px;
+}

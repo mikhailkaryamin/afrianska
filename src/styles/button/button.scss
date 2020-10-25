@@ -8,6 +8,7 @@
   background-color: $bg-color-light;
   transition: 300ms;
   cursor: pointer;
+  box-shadow: 5px 10px 20px rgba(16, 112, 177, 0.2);
 
   &:hover {
     transform: scale(0.95);
