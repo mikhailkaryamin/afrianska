@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="contact__container contact__container--middle">
-          <ul class="contact__list">
+          <ul class="contact__list contact__list--main">
             <li class="contact__item">
               <b class="contact__item-title">
                 ADDRESS
@@ -58,11 +58,15 @@
                 PHONE
               </b>
               <ul class="contact__list contact__list--numbers">
-                <li class="contact__item-description">
-                  +62-812-7313-4321
+                <li class="contact__item-description contact__item-description--icon contact__item-description--phone">
+                  <a href="tel:+62-812-7313-4321" class="contact__link">
+                    +62-812-7313-4321
+                  </a>
                 </li>
-                <li class="contact__item-description">
-                  +62-817-000-1234
+                <li class="contact__item-description contact__item-description--icon contact__item-description--phone">
+                  <a href="tel:+62-817-000-1234" class="contact__link">
+                    +62-817-000-1234
+                  </a>
                 </li>
               </ul>
             </li>
@@ -71,16 +75,23 @@
                 ONLINE SERVICE
               </b>
               <ul class="contact__list contact__list--online">
-                <li class="contact__item-description">
-                  www.afrianska.com
+                <li class="contact__item-description contact__item-description--icon contact__item-description--site">
+                  <a href="https://afrianska.com" class="contact__link">
+                    www.afrianska.com
+                  </a>
                 </li>
-                <li class="contact__item-description">
-                  hello.afrian@gmail.com
+                <li class="contact__item-description contact__item-description--icon contact__item-description--email">
+                  <a href="mailto:hello.afrian@gmail.com" class="contact__link">
+                    hello.afrian@gmail.com
+                  </a>
                 </li>
               </ul>
             </li>
           </ul>
           <form method="POST" class="contact__message message">
+            <h2 class="message__title">
+              SEND US MESSAGE
+            </h2>
             <ul class="message__list">
               <li class="message__item">
                 <label for="full-name" class="message__label">
@@ -103,7 +114,7 @@
                   type="email"
                   name="email"
                   id="email"
-                  class="message__input"
+                  class="message__input input"
                   placeholder="Your email"
                   required
                 >
@@ -115,12 +126,13 @@
                 <textarea
                   name="message-text"
                   id="message-text"
+                  class="message__input input"
                   placeholder="Your Message"
                   required
                 ></textarea>
               </li>
             </ul>
-            <button class="button" type="submit">
+            <button class="message__button button" type="submit">
               SUBMIT
             </button>
           </form>
