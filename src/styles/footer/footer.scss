@@ -4,7 +4,7 @@
   color: #ffffff;
   background-color: $bg-color-light;
 
-  &--contact-us {
+  &--inner-page {
     background: transparent;
   }
 }
@@ -27,6 +27,7 @@
   flex-basis: 50%;
   min-height: 325px;
   padding: 15px;
+  padding-left: 0;
   border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.4);
 
   &--right {
@@ -55,6 +56,7 @@
   flex-basis: 33.333333%;
   margin-bottom: 50px;
   padding: 15px;
+  padding-left: 0;
 
   &--follow-us,
   &--about-us {
@@ -77,6 +79,10 @@
   line-height: 46px;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.footer__logo-icon {
+  margin-bottom: -15px;
 }
 
 .footer__list {

@@ -61,17 +61,16 @@
   line-height: 30px;
   text-decoration: none;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 16px;
-    height: 16px;
-    background-image: url("../../assets/icons/card__arrow.svg");
-  }
-
   &:hover {
     color: $bg-color-dark;
   }
+}
+
+.card__btn-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../assets/icons/card__arrow.svg");
 }
