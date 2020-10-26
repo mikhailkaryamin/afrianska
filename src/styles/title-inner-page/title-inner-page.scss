@@ -1,0 +1,18 @@
+.title-inner-page {
+  background-image: url("../../assets/images/contact-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0;
+}
+
+.title-inner-page__wrapper {
+  @include wrapper-desktop;
+  padding-top: 45px;
+  padding-right: 100px;
+  padding-bottom: 45px;
+  padding-left: 100px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
