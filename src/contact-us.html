@@ -7,10 +7,15 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+  <div style="display:none">
+    <include src="src/assets/images/sprite.svg"></include>
+  </div>
   <header class="header">
     <div class="header__wrapper">
-      <a href="./index.html" class="header__logo">
-        <img src="./assets/icons/logo.svg" alt="Logotype">
+      <a href="#" class="header__logo">
+        <svg class="header__logo-icon" width="48" height="48" focusable="false">
+          <use xlink:href="#logo-header"></use>
+        </svg>
       </a>
       <nav class="header__navigation">
         <button class="header__burger">
@@ -32,9 +37,8 @@
     </div>
   </header>
   <main>
-    <section class="contact">
-      <div class="contact__wrapper">
-        <div class="contact__container contact__container--top">
+    <section class="title-inner-page">
+      <div class="title-inner-page__wrapper">
           <h1 class="contact__title">
             Contact Us
           </h1>
@@ -42,8 +46,11 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
-        </div>
-        <div class="contact__container contact__container--middle">
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__wrapper">
+        <div class="contact__container">
           <ul class="contact__list contact__list--main">
             <li class="contact__item">
               <b class="contact__item-title">
@@ -60,11 +67,17 @@
               <ul class="contact__list contact__list--numbers">
                 <li class="contact__item-description contact__item-description--icon contact__item-description--phone">
                   <a href="tel:+62-812-7313-4321" class="contact__link">
+                    <svg class="contact__link-icon" width="24" height="24" focusable="false">
+                      <use xlink:href="#contact__phone"></use>
+                    </svg>
                     +62-812-7313-4321
                   </a>
                 </li>
                 <li class="contact__item-description contact__item-description--icon contact__item-description--phone">
                   <a href="tel:+62-817-000-1234" class="contact__link">
+                    <svg class="contact__link-icon" width="24" height="24" focusable="false">
+                      <use xlink:href="#contact__phone"></use>
+                    </svg>
                     +62-817-000-1234
                   </a>
                 </li>
@@ -77,11 +90,17 @@
               <ul class="contact__list contact__list--online">
                 <li class="contact__item-description contact__item-description--icon contact__item-description--site">
                   <a href="https://afrianska.com" class="contact__link">
+                    <svg class="contact__link-icon" width="24" height="24" focusable="false">
+                      <use xlink:href="#contact__site"></use>
+                    </svg>
                     www.afrianska.com
                   </a>
                 </li>
                 <li class="contact__item-description contact__item-description--icon contact__item-description--email">
                   <a href="mailto:hello.afrian@gmail.com" class="contact__link">
+                    <svg class="contact__link-icon" width="24" height="24" focusable="false">
+                      <use xlink:href="#contact__email"></use>
+                    </svg>
                     hello.afrian@gmail.com
                   </a>
                 </li>
@@ -141,7 +160,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer footer--inner-page">
     <div class="footer__bg">
       <div class="footer__wrapper">
         <div class="footer__container footer__container--left">
@@ -162,7 +181,9 @@
         <div class="footer__column footer__column--contacts">
           <div class="footer__title">
             <a href="#" class="footer__logo">
-              <img src="./assets/icons/logo-footer.svg" alt="Logotype Afrianska">
+              <svg class="footer__logo-icon" width="48" height="48" focusable="false">
+                <use xlink:href="#logo-footer"></use>
+              </svg>
               Afrianska
             </a>
           </div>

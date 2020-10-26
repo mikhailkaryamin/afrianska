@@ -7,10 +7,15 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+  <div style="display:none">
+    <include src="src/assets/images/sprite.svg"></include>
+  </div>
   <header class="header">
     <div class="header__wrapper">
       <a href="#" class="header__logo">
-        <img src="./assets/icons/logo.svg" alt="Logotype">
+        <svg class="header__logo-icon" width="48" height="48" focusable="false">
+          <use xlink:href="#logo-header"></use>
+        </svg>
       </a>
       <nav class="header__navigation">
         <button class="header__burger">
@@ -78,6 +83,9 @@
               </p>
               <a href="#" class="card__btn-learn-more">
                 Learn more
+                <svg class="card__btn-icon" width="16" height="16" focusable="false">
+                  <use xlink:href="#card__arrow"></use>
+                </svg>
               </a>
             </div>
           </li>
@@ -92,6 +100,9 @@
               </p>
               <a href="#" class="card__btn-learn-more">
                 Learn more
+                <svg class="card__btn-icon" width="16" height="16" focusable="false">
+                  <use xlink:href="#card__arrow"></use>
+                </svg>
               </a>
             </div>
           </li>
@@ -107,6 +118,9 @@
               </p>
               <a href="#" class="card__btn-learn-more">
                 Learn more
+                <svg class="card__btn-icon" width="16" height="16" focusable="false">
+                  <use xlink:href="#card__arrow"></use>
+                </svg>
               </a>
             </div>
           </li>
@@ -190,7 +204,9 @@
         <div class="footer__column footer__column--contacts">
           <div class="footer__column-title">
             <a href="#" class="footer__logo">
-              <img src="./assets/icons/logo-footer.svg" alt="Logotype Afrianska">
+              <svg class="footer__logo-icon" width="48" height="48" focusable="false">
+                <use xlink:href="#logo-footer"></use>
+              </svg>
               Afrianska
             </a>
           </div>
