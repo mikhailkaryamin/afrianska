@@ -7,6 +7,31 @@
     url("../assets/fonts/Gilroy-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Gilroy-SemiBold.eot");
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf") format("truetype"),
+    url("../assets/fonts/Gilroy-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Galien";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Galien-Bold.otf");
+  src: url("../assets/fonts/Galien-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galien";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Galien-Bold.otf");
+  src: url("../assets/fonts/Galien-Bold.ttf") format("truetype");
+}
+
 *,
 *::before,
 *::after {
