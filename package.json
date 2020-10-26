@@ -4,7 +4,8 @@
   "description": "Landing page new automation tool",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp start"
+    "start": "gulp start",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
