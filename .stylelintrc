@@ -20,6 +20,7 @@
       "display",
       "float",
       "flex-direction",
+      "flex-grow",
       "justify-content",
       "flex-basis",
       "align-items",
