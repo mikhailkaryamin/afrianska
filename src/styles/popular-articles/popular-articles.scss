@@ -1,0 +1,33 @@
+.popular-articles {
+  @include wrapper-desktop;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.popular-articles__main {
+  flex-basis: 100%;
+  margin-bottom: 25px;
+}
+
+.popular-articles__container-all {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 55px;
+}
+
+.popular-articles__see-all-link {
+  margin-left: auto;
+  padding-bottom: 25px;
+  color: #356ead;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
