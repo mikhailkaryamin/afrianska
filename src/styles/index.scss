@@ -1,18 +1,25 @@
+// Base styles
 @import "./variables.scss";
 @import "./mixins.scss";
 @import "./base.scss";
 @import "./input/input.scss";
 @import "./button/button.scss";
-@import "./header/header.scss";
-@import "./site-nav/site-nav.scss";
-@import "./about-product/about-product.scss";
 @import "./visually-hidden/visually-hidden.scss";
-@import "./card/card.scss";
-@import "./message/message.scss";
+
+// Blocks
+@import "./about-product/about-product.scss";
 @import "./advantage/advantage.scss";
+@import "./all-article/all-article.scss";
+@import "./article/article.scss";
+@import "./blog-title/blog-title.scss";
+@import "./card/card.scss";
 @import "./clients/clients.scss";
-@import "./title-inner-page/title-inner-page.scss";
-@import "./search-article/search-article.scss";
 @import "./contact/contact.scss";
-@import "./map/map.scss";
 @import "./footer/footer.scss";
+@import "./header/header.scss";
+@import "./map/map.scss";
+@import "./message/message.scss";
+@import "./popular-articles/popular-articles.scss";
+@import "./search-article/search-article.scss";
+@import "./site-nav/site-nav.scss";
+@import "./title-inner-page/title-inner-page.scss";
