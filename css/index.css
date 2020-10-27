@@ -302,19 +302,19 @@ body {
     left: 78px;
     width: 255px;
     height: 208px;
-    background-image: url("../../assets/images/advantage__bring.png"); }
+    background-image: url("../assets/images/advantage__bring.png"); }
   .card--make::before {
     top: 48px;
     left: 74px;
     width: 192px;
     height: 132px;
-    background-image: url("../../assets/images/advantage__make.png"); }
+    background-image: url("../assets/images/advantage__make.png"); }
   .card--build::before {
     top: 49px;
     left: 100px;
     width: 171px;
     height: 132px;
-    background-image: url("../../assets/images/advantage__build.png"); }
+    background-image: url("../assets/images/advantage__build.png"); }
 
 .card__title {
   font-size: 20px;
@@ -339,7 +339,7 @@ body {
   right: 0;
   width: 16px;
   height: 16px;
-  background-image: url("../../assets/icons/card__arrow.svg"); }
+  background-image: url("../assets/icons/card__arrow.svg"); }
 
 .clients {
   width: 1366px;
@@ -439,7 +439,7 @@ body {
       left: 0;
       width: 300px;
       height: 181px;
-      background-image: url("../../assets/images/contact__list-bg.svg"); }
+      background-image: url("../assets/images/contact__list-bg.svg"); }
 
 .contact__item {
   display: flex;
@@ -627,7 +627,7 @@ body {
 .map {
   width: 940;
   height: 480px;
-  background-image: url("../../assets/images/contact-us__map.jpg"); }
+  background-image: url("../assets/images/contact-us__map.jpg"); }
 
 .message {
   padding: 55px;
@@ -724,7 +724,7 @@ body {
   display: none; }
 
 .title-inner-page {
-  background-image: url("../../assets/images/contact-us-bg.jpg");
+  background-image: url("../assets/images/contact-us-bg.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 0; }
